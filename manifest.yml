@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-rasp-pi-coursera-paking
+  host: iot-rasp-pi-coursera-paking
+  disk_quota: 1024M
+  services:
+  - iot-rasp-pi-coursera-paking-cloudantNoSQLDB
+  - iot-rasp-pi-coursera-paking-iotf-service
